@@ -1,5 +1,5 @@
 * {
-  font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3";
+  font-family: "ArialMCentury Gothic", "Hiragino Kaku Gothic ProN", "HG行書体";
   -webkit-text-size-adjust: none;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e4e4e4), color-stop(0.2, #e4e4e4), color-stop(0.2, #dddddd));
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e4e4e4), color-stop(0.2, #e4e4e4, color-stop(0.2, #dddddd));
   background-size: 7px 10px;
   color: #000;
 }
@@ -19,7 +19,7 @@ body {
 header {
   border-top: solid 1px #bec5cf;
   border-bottom: solid 1px #3f4e63;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #acb9c9), color-stop(0.5, #8395af), color-stop(0.5, #7388a5), color-stop(1, #7488a1));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1d6dcf), color-stop(0.5, #8395af), color-stop(0.5, #7388a5), color-stop(1, #7488a1));
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -34,6 +34,7 @@ header {
 
 
 /* https://github.com/edom18/iPhone-button-CSS-template より */
+
 .button { 
   position: relative; 
   margin-bottom: 12px; 
@@ -57,7 +58,7 @@ header {
   height: 100%; 
   padding: 2px; 
   border-radius: 10px; 
-  background-color: #bebebe; 
+  background-color: #ffe6a0; 
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.7)), color-stop(0.5, rgba(255, 255, 255, 0.3)), color-stop(0.5, rgba(255, 255, 255, 0))); 
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 1px 0 rgba(0, 0, 0, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.3); 
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 1px 0 rgba(0, 0, 0, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.3); 
