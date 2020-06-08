@@ -50,7 +50,7 @@
           var seiza = "魚座";
         }
         var text = " あなたの星座は " + seiza + " です! ";
-        alert(text);
+        $("#result").text(text);
     }
   </script>
 </head>
@@ -67,7 +67,8 @@
         日
         <input type="text" id="day" class="input-text">
 
-        <a class="button" onclick="calculate();">判定!</a>
+        <a class="button" onclick="calculate();">判定</a>
+        <div id="result"></div>
     </section>
   </div> 
 </body>
